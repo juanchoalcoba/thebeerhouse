@@ -47,11 +47,11 @@ const BeerScrollVideo = () => {
     <>
 
         <div>
-            <h1 className="text-center font-bold text-7xl text-yellow-200">CERVEZA ARTESANAL</h1>
       <section
         ref={containerRef}
         className="relative h-screen flex items-center justify-center overflow-hidden"
       >
+            <h1 className="text-center font-extrabold text-6xl mt-4 z-20 backdrop-blur-sm rounded-full p-4  text-yellow-100">CERVEZA ARTESANAL</h1>
         
         <video
           ref={videoRef}
