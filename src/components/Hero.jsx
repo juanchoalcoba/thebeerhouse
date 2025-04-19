@@ -12,10 +12,10 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row justify-evenly items-center">
           {/* Texto abajo en mobile */}
           <div className="text-center font-light flex flex-col backdrop-blur-sm rounded-4xl px-12 py-4">
-            <h1 className="text-[160px] drop-shadow-[5px_8px_6px_rgba(0,0,0,0.8)] font-extrabold">
+            <h1 className="text-[100px] md:text-[160px] drop-shadow-[5px_8px_6px_rgba(0,0,0,0.8)] font-extrabold">
               T.B.H
             </h1>
-            <p className="text-4xl font-bold drop-shadow-[4px_4px_6px_rgba(0,0,0,0.8)]">THE BEER HOUSE</p>
+            <p className="text-3xl md:text-4xl font-bold drop-shadow-[4px_4px_6px_rgba(0,0,0,0.8)]">THE BEER HOUSE</p>
           </div>
         </div>
 

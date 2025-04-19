@@ -42,7 +42,7 @@ export default function CraftCards() {
           <div
             key={index}
             ref={(el) => (cardsRef.current[index] = el)}
-            className="bg-gray-900 p-6 rounded-xl shadow-lg hover:shadow-yellow-500/30 border border-yellow-900 transition-transform hover:-translate-y-2 duration-300"
+            className="bg-black p-6 rounded-xl shadow-lg hover:shadow-yellow-500/30 border border-yellow-900 transition-transform hover:-translate-y-2 duration-300"
           >
             <h3 className="text-xl font-bold mb-2 text-yellow-300">
               {card.title}

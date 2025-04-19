@@ -34,8 +34,11 @@ const About = () => {
   }, []);
 
   return (
-    <div id='nosotros' className="relative w-full flex flex-col h-screen justify-center items-center overflow-hidden ">
-      <div className="relative z-10 px-6 md:px-12 flex flex-col justify-center items-center h-full">
+    <div
+      id="nosotros"
+      className="relative w-full flex flex-col justify-center items-center py-24 px-6 md:px-12"
+    >
+      <div className="relative z-10 flex flex-col justify-center items-center w-full">
         <div className="flex flex-col md:flex-row justify-evenly gap-24 items-center">
           {/* Texto con animación */}
           <div
