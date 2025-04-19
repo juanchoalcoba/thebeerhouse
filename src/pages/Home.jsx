@@ -4,6 +4,7 @@ import About from '../components/About'
 import Navbar from '../components/Navbar'
 import ZigzagBackground from '../components/ZigzagBackground'
 import BeerScrollImage from '../components/ZoomAnimation'
+import CraftCards from '../components/Cards'
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
       <Hero />
       <About />
       <BeerScrollImage />
-      <Hero />
+      <CraftCards />
     </div>
   )
 }
