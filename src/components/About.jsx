@@ -48,15 +48,13 @@ const About = () => {
             <h1 className="text-[42px] md:text-[50px] drop-shadow-[2px_2px_2px_rgba(0,0,0,0.8)] font-bold text-blue-100">
               Acerca de Nosotros
             </h1>
-            <p className="text-lg md:text-xl font-light text-gray-200 drop-shadow-[2px_4px_6px_rgba(0,0,0,0.2)] mt-4">
+            <p className="w-96 text-lg md:text-xl font-light text-gray-200 drop-shadow-[2px_4px_6px_rgba(0,0,0,0.2)] mt-4">
               En nuestra cervecería, no solo servimos cerveza artesanal: creamos
               una experiencia inolvidable. Cada sorbo cuenta una historia,
               elaborada con pasión, ingredientes seleccionados y técnicas
               tradicionales. El aroma del lúpulo fresco se mezcla con el sabor
               auténtico de nuestras recetas exclusivas, mientras el ambiente
-              cálido y rústico invita a quedarse. Pero eso no es todo: nuestra
-              cocina acompaña esta aventura con platos pensados para realzar
-              cada cerveza, desde hamburguesas jugosas hasta tapas gourmet.
+              cálido y rústico invita a quedarse.
             </p>
           </div>
 
@@ -64,7 +62,7 @@ const About = () => {
           <div ref={imageRef}>
             <img
               src="./señor.png"
-              className="w-72 md:w-96 rounded-3xl drop-shadow-[2px_4px_6px_rgba(0,0,0,0.8)]"
+              className=" md:w-96 rounded-3xl drop-shadow-[2px_4px_6px_rgba(0,0,0,0.8)]"
               alt="Cervecero"
             />
           </div>
