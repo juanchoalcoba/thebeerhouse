@@ -62,7 +62,7 @@ const About = () => {
           <div ref={imageRef}>
             <img
               src="./señor.png"
-              className=" md:w-96 rounded-3xl drop-shadow-[2px_4px_6px_rgba(0,0,0,0.8)]"
+              className="w-72 md:w-96 rounded-3xl drop-shadow-[2px_4px_6px_rgba(0,0,0,0.8)]"
               alt="Cervecero"
             />
           </div>
