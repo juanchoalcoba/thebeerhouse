@@ -34,41 +34,52 @@ const About = () => {
   }, []);
 
   return (
-    <div
+    <section
       id="nosotros"
-      className="relative w-full flex flex-col justify-center items-center py-24 px-6 md:px-12"
+      className="relative w-full py-24 px-6 md:px-12 bg-gradient-to-br from-yellow-50 via-amber-100 to-orange-50"
     >
-      <div className="relative z-10 flex flex-col justify-center items-center w-full">
-        <div className="flex flex-col md:flex-row justify-evenly gap-24 items-center">
-          {/* Texto con animación */}
-          <div
-            ref={textRef}
-            className="text-center md:text-left flex flex-col justify-start items-center md:items-start max-w-xl"
-          >
-            <h1 className="text-[22px] md:text-[50px] drop-shadow-[2px_2px_2px_rgba(0,0,0,0.8)] font-bold text-blue-100">
-              Acerca de Nosotros
-            </h1>
-            <p className="w-72 md:w-96 text-md md:text-xl font-light text-gray-200 drop-shadow-[2px_4px_6px_rgba(0,0,0,0.2)] mt-4">
-              En nuestra cervecería, no solo servimos cerveza artesanal: creamos
-              una experiencia inolvidable. Cada sorbo cuenta una historia,
-              elaborada con pasión, ingredientes seleccionados y técnicas
-              tradicionales. El aroma del lúpulo fresco se mezcla con el sabor
-              auténtico de nuestras recetas exclusivas, mientras el ambiente
-              cálido y rústico invita a quedarse.
-            </p>
-          </div>
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-16">
+        {/* Texto */}
+        <div
+          ref={textRef}
+          className="flex-1 text-center md:text-left flex flex-col items-center md:items-start"
+        >
+          <h2 className="text-3xl md:text-5xl font-extrabold text-amber-900 tracking-tight mb-4 drop-shadow-md">
+            Acerca de <span className="text-amber-600">Nosotros</span>
+          </h2>
+          <p className="max-w-md md:max-w-lg text-base md:text-lg text-zinc-800 font-medium leading-relaxed drop-shadow-sm">
+            En nuestra cervecería artesanal, no solo servimos cerveza: creamos experiencias. 
+            Cada sorbo cuenta una historia elaborada con pasión, ingredientes seleccionados 
+            y técnicas tradicionales. Sumergite en el aroma del lúpulo fresco y sabores que 
+            evocan nuestra herencia rústica y cálida.
+          </p>
 
-          {/* Imagen con animación */}
-          <div ref={imageRef}>
+          <div className="mt-8">
+            <a
+              href="#reservas"
+              className="inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold px-6 py-3 rounded-full shadow-lg transition-transform transform hover:-translate-y-1"
+            >
+              Conocé Más
+            </a>
+          </div>
+        </div>
+
+        {/* Imagen */}
+        <div
+          ref={imageRef}
+          className="flex-1 flex justify-center items-center"
+        >
+          <div className="relative w-72 md:w-96">
             <img
               src="./señor.png"
-              className="w-72 md:w-96 rounded-3xl drop-shadow-[2px_4px_6px_rgba(0,0,0,0.8)]"
               alt="Cervecero"
+              className="rounded-3xl shadow-[0_10px_30px_rgba(0,0,0,0.5)] border-4 border-amber-200 object-cover"
             />
+           
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
