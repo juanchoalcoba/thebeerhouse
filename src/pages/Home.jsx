@@ -8,7 +8,7 @@ import CraftCards from '../components/Cards'
 
 const Home = () => {
   return (
-    <div className="relative">
+    <div>
       <ZigzagBackground />
       <Navbar />
       <Hero />
