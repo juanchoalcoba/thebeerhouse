@@ -48,7 +48,7 @@ const About = () => {
             <h1 className="text-[22px] md:text-[50px] drop-shadow-[2px_2px_2px_rgba(0,0,0,0.8)] font-bold text-blue-100">
               Acerca de Nosotros
             </h1>
-            <p className="w-96 text-md md:text-xl font-light text-gray-200 drop-shadow-[2px_4px_6px_rgba(0,0,0,0.2)] mt-4">
+            <p className="w-72 text-md md:text-xl font-light text-gray-200 drop-shadow-[2px_4px_6px_rgba(0,0,0,0.2)] mt-4">
               En nuestra cervecería, no solo servimos cerveza artesanal: creamos
               una experiencia inolvidable. Cada sorbo cuenta una historia,
               elaborada con pasión, ingredientes seleccionados y técnicas
