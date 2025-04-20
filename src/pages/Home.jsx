@@ -12,7 +12,12 @@ const Home = () => {
       <ZigzagBackground />
       <Navbar />
       <Hero />
-      <About />
+      
+      {/* Ajuste para evitar que About se vea apretado */}
+      <div className="px-4 sm:px-6 md:px-8 lg:px-16 py-10">
+        <About />
+      </div>
+
       <BeerScrollImage />
       <CraftCards />
     </div>
