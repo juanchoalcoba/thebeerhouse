@@ -8,16 +8,11 @@ import CraftCards from '../components/Cards'
 
 const Home = () => {
   return (
-    <div>
+    <div className="relative">
       <ZigzagBackground />
       <Navbar />
       <Hero />
-      
-      {/* Ajuste para evitar que About se vea apretado */}
-      <div className="px-4 sm:px-6 md:px-8 lg:px-16 py-10">
-        <About />
-      </div>
-
+      <About />
       <BeerScrollImage />
       <CraftCards />
     </div>
