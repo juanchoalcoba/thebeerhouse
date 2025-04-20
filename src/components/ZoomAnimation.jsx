@@ -14,8 +14,8 @@ const BeerScrollVideo = () => {
       gsap.fromTo(
         videoRef.current,
         {
-          width: "50vw",
-          height: "50vh",
+          width: "60vw",
+          height: "60vh",
         },
         {
           width: "100vw",
