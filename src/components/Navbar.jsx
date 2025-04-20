@@ -69,7 +69,7 @@ const Navbar = () => {
 
             {/* Ícono de hamburguesa para pantallas pequeñas */}
             <button
-              className="block lg:hidden text-blue-50 z-50 relative"
+              className="block lg:hidden text-blue-50 z-50 mr-8 relative"
               onClick={toggleNavMenu}
             >
               {isNavOpen ? (
