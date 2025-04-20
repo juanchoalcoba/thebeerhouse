@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div id="inicio" className="relative w-full flex fex-col h-screen justify-center  md:mt-0 items-center overflow-hidden">
       {/* Fondo de pantalla */}
-      <div className="absolute inset-0 bg-[url('/beer.png')] bg-cover bg-center mt-12 bg-no-repeat z-0"></div>
+      <div className="absolute inset-0 bg-[url('/thebeerhouse.jpg')] bg-cover bg-center bg-no-repeat z-0"></div>
 
       {/* Contenido encima del fondo */}
       <div className="relative z-10  flex flex-col justify-center items-center h-screen">

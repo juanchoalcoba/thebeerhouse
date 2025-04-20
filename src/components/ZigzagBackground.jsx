@@ -39,7 +39,7 @@ const ZigzagBackground = () => {
   return (
     <div
       ref={zigzagRef}
-      className="fixed top-0 left-1/2 w-60 h-60 bg-cover bg-no-repeat drop-shadow-2xl rounded-full z-[-10] opacity-20 pointer-events-none"
+      className="fixed top-0 left-1/2 w-90 h-90 bg-cover bg-no-repeat drop-shadow-2xl rounded-full z-[-10] opacity-40 pointer-events-none"
       style={{
         transform: 'translateX(-80%)',
         backgroundImage: 'url(/luna.png)', // Reemplaza con la ruta correcta de la imagen
