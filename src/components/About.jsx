@@ -69,7 +69,7 @@ const About = () => {
           ref={imageRef}
           className="flex-1 flex justify-center items-center"
         >
-          <div className="relative w-72 md:w-96">
+          <div className="relative w-60 md:w-96">
             <img
               src="./señor.png"
               alt="Cervecero"
