@@ -20,8 +20,8 @@ const Hero = () => {
         </div>
 
         <div className="flex w-full mt-8 md:mt-12 justify-center items-center">
-          <Link to="/reservas" className="bg-yellow-300 font-medium text-black border border-white hover:bg-yellow-400 text-lg px-8 py-3 rounded-full shadow-md transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl">
-            Reservar
+          <Link to="/reservas" className="bg-yellow-300 font-bold text-black border border-white hover:bg-yellow-400 text-md px-8 py-2 rounded-3xl shadow-md transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl">
+            RESERVAR
           </Link>
         </div>
       </div>
