@@ -7,7 +7,6 @@ gsap.registerPlugin(ScrollTrigger);
 const BeerScrollVideo = () => {
   const containerRef = useRef(null);
   const videoRef = useRef(null);
-  const nextSectionRef = useRef(null);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -27,14 +26,6 @@ const BeerScrollVideo = () => {
             end: "+=100%",
             scrub: true,
             pin: true,
-            onLeave: () => {
-              if (nextSectionRef.current) {
-                window.scrollTo({
-                  top: nextSectionRef.current.offsetTop,
-                  behavior: "smooth",
-                });
-              }
-            },
           },
         }
       );
@@ -45,25 +36,25 @@ const BeerScrollVideo = () => {
 
   return (
     <>
+      <div>
+        <section
+          ref={containerRef}
+          className="relative h-screen flex items-center justify-center overflow-hidden"
+        >
+          <h1 className="text-center font-extrabold text-3xl md:text-6xl mt-4 z-20 backdrop-blur-sm rounded-full p-4  text-yellow-100">
+            CERVEZA ARTESANAL
+          </h1>
 
-        <div>
-      <section
-        ref={containerRef}
-        className="relative h-screen flex items-center justify-center overflow-hidden"
-      >
-            <h1 className="text-center font-extrabold text-3xl md:text-6xl mt-4 z-20 backdrop-blur-sm rounded-full p-4  text-yellow-100">CERVEZA ARTESANAL</h1>
-        
-        <video
-          ref={videoRef}
-          src="/futuro.mp4"  // Asegúrate de tener el video en la carpeta pública
-          alt="Cerveza Futurista"
-          className="object-cover z-8"
-          style={{ position: "absolute" }}
-          loop
-          muted
-          autoPlay
-        />
-      </section>
+          <video
+            ref={videoRef}
+            src="/futuro.mp4"
+            className="object-cover z-8 will-change-transform"
+            style={{ position: "absolute", transform: "translateZ(0)" }}
+            loop
+            muted
+            autoPlay
+          />
+        </section>
       </div>
     </>
   );
