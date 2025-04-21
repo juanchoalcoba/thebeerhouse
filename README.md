@@ -33,3 +33,27 @@ TheBeerHouse/
 ├── tailwind.config.js
 ├── vite.config.ts
 └── package.json
+
+
+
+
+🛠️ Instalación y Uso
+Clonar el repositorio
+
+bash
+Copiar
+Editar
+git clone https://github.com/tu-usuario/the-beer-house.git
+cd the-beer-house
+Instalar dependencias
+
+bash
+Copiar
+Editar
+npm install
+Iniciar el servidor de desarrollo
+
+bash
+Copiar
+Editar
+npm run dev
