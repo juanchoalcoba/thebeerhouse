@@ -50,7 +50,7 @@ const Navbar = () => {
       <header className="absolute top-1/2 w-full -translate-y-1/2 p-2">
         <nav className="flex size-full items-center justify-between pt-8">
           <div className="flex items-center">
-            <img src="/logo.png" alt="" className="w-[100px] rounded-full" />
+            <img src="/logo.png" alt="" className="w-[100px] hover:w-[110px] transition-all duration-500 rounded-full" />
           </div>
 
           <div className="flex h-full items-center">

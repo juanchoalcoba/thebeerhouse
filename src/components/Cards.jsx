@@ -28,7 +28,7 @@ export default function CraftCards() {
   const cardsRef = useRef([]);
 
   return (
-    <section className="min-h-screen  text-white py-16 px-4 flex flex-col items-center">
+    <section className="min-h-screen  font-roboto text-white py-16 px-4 flex flex-col items-center">
       <h2 className="text-4xl font-bold mb-4 text-yellow-300">
         Nuestros Especiales
       </h2>

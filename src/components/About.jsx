@@ -36,7 +36,7 @@ const About = () => {
   return (
     <section
       id="nosotros"
-      className="relative w-full py-24 px-6 md:px-12 rounded-xl bg-gradient-to-br from-yellow-200 via-amber-100 to-orange-50"
+      className="relative w-full font-roboto py-24 px-6 md:px-12 rounded-xl bg-gradient-to-br from-yellow-200 via-amber-100 to-orange-50"
     >
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-16">
         {/* Texto */}
