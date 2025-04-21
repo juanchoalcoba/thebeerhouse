@@ -31,7 +31,7 @@ const Hero = () => {
         <div className="flex w-full mt-8 md:mt-12 justify-center items-center">
           <Link
             to="/reservas"
-            className="bg-yellow-300 font-bold text-black border border-white hover:bg-yellow-400 text-md px-8 py-2 rounded-3xl shadow-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl"
+            className="bg-yellow-300 font-bold text-black border border-yellow-700 font-sans  hover:bg-yellow-400 text-md px-8 py-2 rounded-3xl shadow-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl"
           >
             RESERVAR
           </Link>
