@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="relative z-10  flex flex-col justify-center items-center h-screen">
         <div className="flex flex-col md:flex-row justify-evenly items-center">
           {/* Texto abajo en mobile */}
-          <div className="text-center font-light flex flex-col backdrop-blur-sm rounded-4xl px-12 py-4">
+          <div className="text-center font-light flex flex-col backdrop-blur-xs rounded-4xl px-12 py-4">
             <h1 className="text-[100px] md:text-[160px] text-blue-50 drop-shadow-[5px_8px_6px_rgba(0,0,0,0.8)] font-extrabold">
               T.B.H
             </h1>

@@ -18,8 +18,8 @@ const Home = () => {
         <About />
       </div>
 
-      <BeerScrollImage />
       <CraftCards />
+      <BeerScrollImage />
     </div>
   )
 }
