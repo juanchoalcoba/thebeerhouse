@@ -27,7 +27,7 @@ const ZigzagBackground = () => {
           { x: -400, y: 200 },
           { x: 200, y: 200 },
           { x: 200, y: 200 },
-          { x: 100, y: 400 },
+          { x: -150, y: 200 },
         ],
         autoRotate: false
       }
