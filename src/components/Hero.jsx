@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div id="inicio" className="relative w-full flex fex-col h-screen justify-center  md:mt-0 items-center bg-black">
+    <div id="inicio" className="relative font-roboto w-full flex fex-col h-screen justify-center  md:mt-0 items-center bg-black">
       {/* Fondo de pantalla */}
       <div className="absolute inset-0 bg-[url('/thebeerhouse.jpg')] opacity-60 bg-cover bg-center bg-no-repeat z-0"></div>
 
