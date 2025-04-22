@@ -21,7 +21,7 @@ const Hero = () => {
             <p className="text-3xl md:text-4xl font-bold text-[#DFAF2B] drop-shadow-[4px_6px_5px_rgba(99,47,0,0.9)]">
               THE BEER HOUSE
             </p>
-            <span className="text-lg md:text-xl mt-2 text-[#FFD580] font-medium drop-shadow-[2px_3px_4px_rgba(99,47,0,0.7)] w-96 italic tracking-wide">
+            <span className="text-lg md:text-xl mt-2 text-[#FFD580] font-medium drop-shadow-[2px_3px_4px_rgba(99,47,0,0.7)] italic tracking-wide">
               Donde la buena cerveza y los buenos momentos se encuentran
             </span>
           </div>
