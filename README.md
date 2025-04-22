@@ -14,7 +14,7 @@ Bienvenido a **The Beer House**, un proyecto web desarrollado con Vite, ReactJS 
 
 ## 📸 Vista Previa
 
-![screenshot](./public/screenshot.png) <!-- Asegúrate de agregar una captura de pantalla del proyecto -->
+ <!-- Asegúrate de agregar una captura de pantalla del proyecto -->
 
 ---
 
